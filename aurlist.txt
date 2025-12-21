@@ -1,0 +1,6 @@
+catppuccin-cursors-mocha
+catppuccin-gtk-theme-mocha
+i3lock-color
+simple-mtpfs
+yay
+yay-debug
