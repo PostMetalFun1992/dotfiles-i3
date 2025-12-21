@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Atac (API Client)
+GenericName=REST API Client
+Keywords=api;http;rest;postman;curl;rust;json;
+Exec=atac
+Terminal=true
+Icon=applications-development
+Categories=Development;Network;ConsoleOnly;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Audio Mixer (Pulsemixer)
+GenericName=Volume Control
+Keywords=volume;sound;audio;mixer;pipewire;control;
+Exec=pulsemixer
+Terminal=true
+Icon=audio-volume-high
+Categories=AudioVideo;Audio;ConsoleOnly;

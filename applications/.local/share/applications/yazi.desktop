@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Yazi (File Manager)
+GenericName=File Manager
+Keywords=file;manager;ranger;browser;explorer;fm;
+Exec=yazi
+Terminal=true
+Icon=system-file-manager
+Categories=System;FileTools;FileManager;ConsoleOnly;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Bluetui
+GenericName=Bluetooth Manager
+Keywords=bluetooth;
+Exec=bluetui
+Terminal=true
+Icon=bluetooth
+Categories=System;Settings;HardwareSettings;ConsoleOnly;

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Impala
+GenericName=WiFi setup
+Comment=Manage WiFi connections
+Keywords=internet;network;wifi;wireless;
+Exec=impala
+Terminal=true
+Icon=network-wireless
+Categories=System;Network;ConsoleOnly;
