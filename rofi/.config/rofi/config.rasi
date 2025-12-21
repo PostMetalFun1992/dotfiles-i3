@@ -1,0 +1,10 @@
+@import "catppuccin-mocha"
+@import "colorscheme"
+
+configuration {
+    terminal: "kitty";
+}
+
+* {
+    font: "JetBrainsMono Nerd Font 14";
+}
