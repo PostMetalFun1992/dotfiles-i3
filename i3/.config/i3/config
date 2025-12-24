@@ -199,6 +199,13 @@ bar {
 	font pango:JetBrainsMono Nerd Font 10
 	status_command i3status-rs ~/.config/i3status-rust/config.toml
 	position bottom
+
+	colors {
+        background #282a36
+        focused_workspace #bd93f9   #bd93f9   #282a36
+        active_workspace  #44475a   #44475a   #f8f8f2
+        inactive_workspace #282a36  #282a36   #6272a4
+    }
 }
 
 default_border pixel 0
