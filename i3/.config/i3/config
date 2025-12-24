@@ -13,27 +13,37 @@ set $mod Mod4
 # Font for window titles
 font pango:monospace 8
 
+#
+# Startup
+#
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-exec_always --no-startup-id ~/.fehbg
+# Desktop background
+exec_always --no-startup-id ~/.local/bin/fehbg.sh
+
+# Window composer
 exec --no-startup-id picom -b
+
+# Desktop notifications
 exec --no-startup-id dunst
 
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-bindsym $mod+Shift+o exec --no-startup-id ~/.local/bin/lock.sh
+# Lock screen
 exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.local/bin/lock.sh
 
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
+# NetworkManager
 exec --no-startup-id nm-applet
 
-# Use pactl to adjust volume in PulseAudio.
+#
+# Keybindings
+#
+
+# Lock screen
+bindsym $mod+Shift+o exec --no-startup-id ~/.local/bin/lock.sh
+
+# Audio input / output
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
@@ -61,6 +71,7 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
+# change keyboard layout
 exec --no-startup-id setxkbmap -layout "us,ru" -option "grp:win_space_toggle"
 
 # change focus
@@ -199,7 +210,6 @@ gaps outer 0
 
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-
 
 # Select screen area + add to the buffer
 bindsym $mod+Ctrl+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
