@@ -11,6 +11,16 @@ driver = "setxkbmap"
 format = " $layout "
 
 [[block]]
+block = "custom"
+command = "bluetoothctl show | grep -q 'Powered: yes' && echo '󰂯' || echo '󰂲'"
+interval = "once"
+signal = 1
+
+[[block.click]]
+button = "left"
+cmd = "~/.local/bin/bluetooth-toggle.sh"
+
+[[block]]
 block = "temperature"
 format = " $icon $max "
 chip = "coretemp-isa-*"

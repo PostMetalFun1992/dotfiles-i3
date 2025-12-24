@@ -4,6 +4,7 @@ base
 base-devel
 bat
 bluetui
+bluez-utils
 brightnessctl
 btop
 btrfs-progs
