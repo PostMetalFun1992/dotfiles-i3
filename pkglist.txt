@@ -44,6 +44,7 @@ lightdm-gtk-greeter
 linux
 linux-firmware
 lxappearance
+ly
 maim
 nano
 neovim
