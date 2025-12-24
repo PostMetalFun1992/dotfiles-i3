@@ -27,6 +27,11 @@ alias gl="git log"
 
 alias k="kubectl"
 alias hx="helix"
-alias zj="zellij"
+
+alias z="zellij"
+alias zls="zellij list-sessions"
+alias zks="zellij kill-session"
+alias zds="zellij delete-session"
+alias za="zellij attach"
 
 alias i3conf="nvim ~/.config/i3/config"
