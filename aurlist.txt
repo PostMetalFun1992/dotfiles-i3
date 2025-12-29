@@ -2,6 +2,7 @@ catppuccin-cursors-mocha
 catppuccin-gtk-theme-mocha
 i3lock-color
 nb
+offpunk
 simple-mtpfs
 yay
 yay-debug

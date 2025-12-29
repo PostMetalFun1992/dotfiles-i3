@@ -62,6 +62,9 @@ pipewire-jack
 pipewire-pulse
 polkit-gnome
 pulsemixer
+python-beautifulsoup4
+python-readability-lxml
+python-requests
 ripgrep
 rofi
 smartmontools
