@@ -2,7 +2,7 @@
 @import "colorscheme"
 
 configuration {
-    terminal: "kitty";
+    terminal: "alacritty";
 }
 
 * {

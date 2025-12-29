@@ -1,4 +1,5 @@
 7zip
+alacritty
 android-file-transfer
 atac
 base
@@ -34,8 +35,6 @@ intel-ucode
 iptables-nft
 iwd
 jq
-keepassxc
-kitty
 less
 libnotify
 libpulse
@@ -72,6 +71,8 @@ sof-firmware
 starship
 stow
 syncthing
+tig
+ttf-hack-nerd
 ttf-iosevka-nerd
 ttf-jetbrains-mono-nerd
 unzip
