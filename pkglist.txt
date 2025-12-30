@@ -22,6 +22,7 @@ feh
 firefox
 fish
 git
+glow
 gst-plugin-pipewire
 helix
 htop
