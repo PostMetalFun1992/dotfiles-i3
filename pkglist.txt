@@ -13,6 +13,8 @@ btrfs-progs
 dmenu
 dmidecode
 docker
+docker-buildx
+docker-compose
 dunst
 edk2-ovmf
 efibootmgr
