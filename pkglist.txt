@@ -1,4 +1,5 @@
 7zip
+aerc
 alacritty
 android-file-transfer
 atac
@@ -81,6 +82,7 @@ ttf-jetbrains-mono-nerd
 unzip
 vim
 vulkan-intel
+w3m
 wget
 wireless_tools
 wireplumber
